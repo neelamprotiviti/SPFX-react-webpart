@@ -61,13 +61,6 @@ gulp package-solution --ship
 * To Edit/Remove, go to same page again and Use **Activate** or **Deactivate**.
 * Only Users with Manage Web permission will be able to access web part and add/modify references.
 
-### High level design of Solution
-
-* SPFx solution with 2 components 1. SPFx Web part 2. SPFx Extension Application Customizer
-* Disables Automatic activation of SPFx extension when app is installed.
-* React based solution
-* Register Custom action with ClientSideComponentId of Extension component
-* Passes parameters to Extension with ClientSideComponentProperties
 
 
 
